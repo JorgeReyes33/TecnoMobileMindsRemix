@@ -5,9 +5,10 @@
     gap: 4rem;
 }
 
+/* Cambie el numero de columnas de 2 a 1 */
 @media (min-width: 768px) {
     .celulares-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

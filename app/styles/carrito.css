@@ -5,7 +5,8 @@
     gap: 5rem;
 }
 
-@media(min-width:768px){
+/* Cambie el min-width de 768 a 992 */
+@media(min-width:992px){
     .contenido {
         grid-template-columns: 3fr 2fr;
     }

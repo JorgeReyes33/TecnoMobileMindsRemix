@@ -60,7 +60,8 @@ img {
     align-items: center;
 }
 
-@media (min-width: 768px) {
+/* Cambie el min with de 768 a 992 */
+@media (min-width: 992px) {
     .barra {
         flex-direction: row;
         justify-content: space-between;
@@ -80,12 +81,13 @@ img {
     }
 }
 
+/* Cambie el font-size a 2rem para que se aprecie mejor en mobiles */
 .header .navegacion a {
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     padding: 0.5rem;
     transition-property: background-color;
     transition-duration: 300ms;
